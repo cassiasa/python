@@ -1,0 +1,9 @@
+print("Welcome!")
+guess = int(0)
+while guess !=5:
+    guess = int(input("Guess the number: "))
+    if guess == 5:
+        print("You win!")
+        break
+    print("Too high!" if guess > 5 else "Too low!")     
+print("Game over")
